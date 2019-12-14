@@ -35,7 +35,6 @@ pipeline {
             }
         }
 
-        
          stage ('deploy to tomcat') {
              steps {
                  sshagent(['tomcats']) {
