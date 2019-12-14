@@ -4,7 +4,7 @@ pipeline {
 
     stages {
         stage('SCM Checkout'){
-          git 'https://github.com/prakashk0301/jenkins-example'
+          git 'https://github.com/AvijitChd/jenkins-example.git'
         }
   }
     {
